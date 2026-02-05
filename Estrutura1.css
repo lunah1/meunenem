@@ -1,0 +1,41 @@
+/* tirar marquens padrão e escolher um fote bonita */
+html, boby {
+    margin: 0;
+    padding : 0;/*zeranos a margem*/
+    font-family: Arial, sans-serif;/*define o estilo do texto*/
+    background-color: #fff0f5;/*cor de fundo suave*/
+    min-height: 100vh; /* altura mínima para cobrir a tela toda */  
+    display: flex;/*usar flexbox para centralizar o conteúdo*/
+    justify-content: center; /*centralizar horizontalmente*/
+    align-items: center; /*centralizar verticalmente*/
+    h1 {
+        color: #d63384; /*cor do título*/
+        margin-bottom: 8px;/*espaçamento abaixo do título*/
+        font-size: 2rem; /*tamanho da fonte do título*/
+    }
+    p {
+        color: #3b3b98; /*cor do parágrafo*/
+        line-height: 1.5; /*espaçamento entre linhas*/
+        margin: 6px 0; /*margem vertical*/
+    }
+    #btnMostrarFoto {
+        margin-top: 16px; /*espaçamento acima do botão*/
+        background: linear-gradient(90deg, #FF9AA2, #FFB7B2); /*gradiente de fundo*/
+        border: none; /*sem borda*/
+        padding: 10px 18px; /*espaçamento interno*/
+        border-radius: 8px; /*bordas arredondadas*/
+        color: #222; /*cor do texto do botão*/
+        font-weight: 600; /*peso da fonte*/
+        cursor: pointer; /*cursor de ponteiro ao passar o mouse*/
+        box-shadow: 0 6px 12px rgba(0,0,0,0.08); /*sombra leve*/
+    }
+    #btnMostrarFoto:active {
+        transform: scale(0.95); /*efeito de clique*/
+    }
+    #containerFoto {
+        margin-top: 20px;/*espaçamento acima do contêiner de foto*/
+        display: flex;/*usar flexbox para centralizar a imagem*/
+        justify-content: center;/*centralizar horizontalmente*/
+    }
+    background-color: linear-gradient(135deg, #FFF7E6 0%, #FFE6F2 50%, #E6F7FF 100%); /*gradiente de fundo*/
+    }
